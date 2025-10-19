@@ -168,6 +168,22 @@
   border-radius: 4px;
 }
 
+.loader {
+  width: 20px;
+  height: 20px;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  background-color: transparent;
+  animation: spin 1.2s linear infinite;
+  border-radius: 50%;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 @media screen and (max-width: 600px) {
   .navbar-navigation,
   .navbar-icons {

@@ -1,5 +1,5 @@
 import "../../styles/home.css";
-import image from "/images/Jay-harrington.png";
+import image from "/images/jay-bck.png";
 import { ContactContextFunction } from "../../context/contact.jsx";
 
 export function Banner() {
